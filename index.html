@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="Vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bevy - template-one</title>
+
+    <!-- External CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/all.min.css">
+
+    <link type="text/css" rel="stylesheet" href="assets/css/slick.css">
+    <!-- <link rel="stylesheet" href="assets/css/magnific-popup.css" /> -->
+    <link type="text/css" rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo-icon.png">
+
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/timer.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader_div"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="main_header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-sm-3 col-xs-6 col-5">
+                    <div class="logo">
+                        <a href="#">
+                            <img class="img-responsive" src="assets/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-sm-9 col-xs-6 col-7">
+                    <div class="main_nav ml-auto">
+
+                        <!-- Main Nav Menu -->
+                        <nav id="primary_navigation" class="site_navigation">
+
+                            <div class="main_menu">
+                                <a href="javascript:void(0);" class="close_menu"><i class="fa fa-times"></i></a>
+                                <ul class="nav main_menu_list justify-content-end">
+                                    <li class="menu-item page-active">
+                                        <a href="#home">Trang chủ</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#about">Giới thiệu</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#portfolio">Khóa học</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#team">Giáo viên</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#statistic">Kết quả</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#blog">Bài viết</a>
+                                    </li>
+                                    <li class="menu-item"><a href="#footer">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                            <a href="#contact" class="get_quote btn br-50">Đăng kí học</a>
+                            <a class="menu-bar mobile-navigation" href="javascript:void(0)">
+                                <span class="menu-btn-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </a>
+                        </nav>
+                        <!-- End Main Nav Menu -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /. Header -->
+
+    <!-- banner Section -->
+    <section class="banner_sec" id="home">
+        <div class="banner_slider">
+            <div class="b_slide" style="background-image: url(assets/images/banner-top1.png);">
+                <div class="container">
+                    <div class="banner_caption">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <h3 data-animation="fadeInLeft" data-delay="0.5s">TRUNG TÂM</h3>
+                                <h1 data-animation="fadeInLeft" data-delay="0.9s">Toàn Thắng</h1>
+                                <p data-animation="fadeInLeft" data-delay="1.3s">Trung tâm Toàn Thắng nằm tại 54/24 Ông
+                                    Ích Khiêm - Hải Châu - Tp Đà Nẵng là cơ sở giảng dạy các môn học cơ sở như Toán, Lý,
+                                    Hoá, Anh Văn, Ngữ Văn... dành cho các học sinh các cấp giúp các em tiến bộ trong học
+                                    tập, phát triển kỹ năng tư duy, logic, kỹ năng mềm, giao tiếp...</p>
+                                <a href="https://www.facebook.com/daythemtoanthang/?locale=vi_VN" class="btn br-50"
+                                    data-animation="fadeInUp" data-delay="1.6s">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b_slide" style="background-image: url(assets/images/banner-top2.png);">
+                <div class="container">
+                    <div class="banner_caption">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <h3 data-animation="fadeInLeft" data-delay="0.5s">TRUNG TÂM</h3>
+                                <h1 data-animation="fadeInLeft" data-delay="0.9s">Toàn Thắng</h1>
+                                <p data-animation="fadeInLeft" data-delay="1.3s">Trung tâm Toàn Thắng nằm tại 54/24 Ông
+                                    Ích Khiêm - Hải Châu - Tp Đà Nẵng là cơ sở giảng dạy các môn học cơ sở như Toán, Lý,
+                                    Hoá, Anh Văn, Ngữ Văn... dành cho các học sinh các cấp giúp các em tiến bộ trong học
+                                    tập, phát triển kỹ năng tư duy, logic, kỹ năng mềm, giao tiếp...</p>
+                                <a href="https://www.facebook.com/daythemtoanthang/?locale=vi_VN" class="btn br-50"
+                                    data-animation="fadeInUp" data-delay="1.6s">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="b_slide" style="background-image: url(assets/images/banner-top3.png);">
+                <div class="container">
+                    <div class="banner_caption">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <h3 data-animation="fadeInLeft" data-delay="0.5s">TRUNG TÂM</h3>
+                                <h1 data-animation="fadeInLeft" data-delay="0.9s">Toàn Thắng</h1>
+                                <p data-animation="fadeInLeft" data-delay="1.3s">Trung tâm Toàn Thắng nằm tại 54/24 Ông
+                                    Ích Khiêm - Hải Châu - Tp Đà Nẵng là cơ sở giảng dạy các môn học cơ sở như Toán, Lý,
+                                    Hoá, Anh Văn, Ngữ Văn... dành cho các học sinh các cấp giúp các em tiến bộ trong học
+                                    tập, phát triển kỹ năng tư duy, logic, kỹ năng mềm, giao tiếp...</p>
+                                <a href="https://www.facebook.com/daythemtoanthang/?locale=vi_VN" class="btn br-50"
+                                    data-animation="fadeInUp" data-delay="1.6s">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /. banner Section -->
+
+    <!-- About Section -->
+    <section class="about_sec" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="sec_heading wow fadeInLeft"><span>Giới thiệu</span>Video hành trình</h2>
+                    <iframe width="90%" height="350" src="https://www.youtube.com/embed/bx6xeG4CmQc">
+                    </iframe>
+                </div>
+                <div id="admissions" class="col-md-6">
+                    <h2 class="sec_heading wow fadeInLeft">Lịch tuyển sinh</h2>
+                    <div class="slider_admissions">
+                        <div class="about_right wow fadeInRight">
+                            <img src="assets/images/poster-news/poster-1.jpg" alt="about">
+                        </div>
+                        <div class="about_right wow fadeInRight">
+                            <img src="assets/images/poster-news/poster-2.jpg" alt="about">
+                        </div>
+                        <div class="about_right wow fadeInRight">
+                            <img src="assets/images/poster-news/poster-3.jpg" alt="about">
+                        </div>
+                        <div class="about_right wow fadeInRight">
+                            <img src="assets/images/poster-news/poster-4.jpg" alt="about">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 wow slideInUp" data-wow-duration=".5s" data-wow-delay="0s">
+                    <div class="what-we-do-item text-center mt-30" style="height: 380px;">
+                        <i class="fas fa-book-reader"></i>
+                        <h5 class="title">Kiến thức</h5>
+                        <p>Cung cấp đầy đủ các môn học theo chương trình chuẩn của Bộ Giáo dục và Đào tạo, bao gồm cả
+                            các môn học khoa học tự nhiên, xã hội và nhân văn</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="what-we-do-item text-center mt-30" style="height: 380px;">
+                        <i class="fas fa-award"></i>
+                        <h5 class="title">Chuyên môn</h5>
+                        <p>Giáo viên tại trung tâm Toàn Thắng đạt trình độ giảng dạy cao và có kinh nghiệm thực tế để
+                            truyền đạt kiến thức cho học sinh</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+                    <div class="what-we-do-item text-center mt-30" style="height: 380px;">
+                        <i class="fas fa-building"></i>
+                        <h5 class="title">Cơ sở vật chất</h5>
+                        <p>Hiện đại, phòng học tiện nghi với máy lạnh và thiết bị hỗ trợ giảng dạy
+                            tiên tiến, mang đến môi trường học tập tốt nhất</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 wow slideInUp" data-wow-duration="2s" data-wow-delay="0s">
+                    <div class="what-we-do-item text-center mt-30" style="height: 380px;">
+                        <i class="fas fa-users"></i>
+                        <h5 class="title">Hoạt động</h5>
+                        <p>Chúng tôi tổ chức các hoạt động trao thưởng cá nhân thường xuyên để khuyến khích học sinh nỗ
+                            lực học tập và đạt được kết quả tốt trong học tập</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /. About Section -->
+
+
+    <!-- portfolio Section -->
+
+    <section class="portfolio_tab_sec bg_light_gray" id="portfolio">
+        <div class="container">
+            <div class="sec_header text-center">
+                <h2 class="sec_heading wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                    <span>Khóa học</span>Các Môn Học
+                </h2>
+                <p class="wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">Hãy khám phá và trau
+                    dồi kiến thức về môn học này để nâng cao khả năng giải quyết vấn đề và phát triển bản thân!</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="portfolio_tabs">
+                <ul class="tabs_list text-center wow fadeInUp" id="filters"
+                    style="visibility: visible; animation-name: fadeInUp;">
+                    <li><a href="#!" class="filter active"
+                            data-filter=".math, .physics, .chemistry, .literature, .english">Tất cả</a></li>
+                    <li><a href="#!" class="filter" data-filter=".math">Toán</a></li>
+                    <li><a href="#!" class="filter" data-filter=".physics">Lý</a></li>
+                    <li><a href="#!" class="filter" data-filter=".chemistry">Hóa</a></li>
+                    <li><a href="#!" class="filter" data-filter=".literature">Văn</a></li>
+                    <li><a href="#!" class="filter" data-filter=".english">Anh</a></li>
+                </ul>
+                <div class="portfolio_list wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <div id="portfoliolist">
+                        <div class="portfolio_item portfolio english" data-cat="english" >
+                            <a href="assets/images/subject/subject-1.jpg">
+                                <img src="assets/images/subject/subject-1.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Môn Anh</h4>
+                                    <p>Cô Nguyễn Thị Vi Na</p>
+                                    <p>Lớp 6, 9</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio math" data-cat="math" >
+                            <a href="assets/images/subject/subject-2.jpg">
+                                <img src="assets/images/subject/subject-2.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Môn Anh</h4>
+                                    <p>Cô Ngô Thị Thanh Thúy</p>
+                                    <p>Lớp 10, 11, 12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio physics" data-cat="physics" >
+                            <a href="assets/images/subject/subject-3.jpg">
+                                <img src="assets/images/subject/subject-3.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Môn Toán</h4>
+                                    <p>Thầy Nguyễn Mạnh Huy</p>
+                                    <p>Lớp 9, 10, 11, 12</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio chemistry" data-cat="chemistry"
+                            >
+                            <a href="assets/images/subject/subject-4.jpg">
+                                <img src="assets/images/subject/subject-4.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Our Design 1</h4>
+                                    <p>Check Our Work</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio literature" data-cat="literature"
+                            >
+                            <a href="assets/images/subject/subject-5.jpg">
+                                <img src="assets/images/subject/subject-5.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Our Design 1</h4>
+                                    <p>Check Our Work</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio literature" data-cat="literature"
+                            >
+                            <a href="assets/images/subject/subject-6.jpg">
+                                <img src="assets/images/subject/subject-6.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Our Design 1</h4>
+                                    <p>Check Our Work</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio chemistry" data-cat="chemistry"
+                            >
+                            <a href="assets/images/subject/subject-7.jpg">
+                                <img src="assets/images/subject/subject-7.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Our Design 1</h4>
+                                    <p>Check Our Work</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio physics" data-cat="physics" >
+                            <a href="assets/images/subject/subject-8.jpg">
+                                <img src="assets/images/subject/subject-8.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Our Design 1</h4>
+                                    <p>Check Our Work</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio physics" data-cat="physics" >
+                            <a href="assets/images/subject/subject-9.jpg">
+                                <img src="assets/images/subject/subject-9.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Our Design 1</h4>
+                                    <p>Check Our Work</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio physics" data-cat="physics" >
+                            <a href="assets/images/subject/subject-10.jpg">
+                                <img src="assets/images/subject/subject-10.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Our Design 1</h4>
+                                    <p>Check Our Work</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio physics" data-cat="physics" >
+                            <a href="assets/images/subject/subject-11.jpg">
+                                <img src="assets/images/subject/subject-11.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Our Design 1</h4>
+                                    <p>Check Our Work</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="portfolio_item portfolio physics" data-cat="physics" >
+                            <a href="assets/images/subject/subject-12.jpg">
+                                <img src="assets/images/subject/subject-12.jpg" alt="portfolio">
+                                <div class="p_caption">
+                                    <div class="plus_icon"></div>
+                                    <h4>Our Design 1</h4>
+                                    <p>Check Our Work</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <a id="btn_more_coure" href="#" class="btn br-50 browse_btn wow slideInUp" data-wow-duration="1.75s"
+                    data-wow-delay="0s"
+                    style="visibility: visible; animation-duration: 1.75s; animation-delay: 0s; animation-name: slideInUp;">Xem
+                    thêm</a>
+                    <a id="btn_less_coure" href="#" class="btn br-50 browse_btn wow slideInUp" data-wow-duration="1.75s"
+                    data-wow-delay="0s"
+                    style="visibility: visible; animation-duration: 1.75s; animation-delay: 0s; animation-name: slideInUp; display: none;">Xem
+                    thêm</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /. portfolio Section -->
+
+
+    <!-- Teams Section -->
+    <section class="team_sec" id="team">
+        <div class="container">
+            <div class="sec_header text-center">
+                <h2 class="sec_heading wow fadeInLeft"><span>ĐỘI NGŨ</span>GIÁO VIÊN CỦA CHÚNG TÔI</h2>
+                <p class="wow fadeInLeft">Đội ngũ giáo viên của chúng tôi là những chuyên gia giàu kinh nghiệm, đam mê
+                    giảng dạy và luôn tận tâm với công việc. Họ sẽ giúp bạn trau dồi kiến thức, khám phá tiềm năng bản
+                    thân và phát triển sự nghiệp thành công. Hãy đến và trải nghiệm sự tận tâm và chuyên nghiệp của đội
+                    ngũ giáo viên chúng tôi!</p>
+            </div>
+            <div class="team_list">
+                <div class="team_member">
+                    <div class="team_member_inner">
+                        <img src="assets/images/teacher/person.png" alt="team Member">
+                        <div class="team_member_overlay">
+                            <h5>Tên Giáo viên</h5>
+                            <div class="memeber_role">Công việc</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team_member">
+                    <div class="team_member_inner">
+                        <img src="assets/images/teacher/person.png" alt="team Member">
+                        <div class="team_member_overlay">
+                            <h5>Tên Giáo viên</h5>
+                            <div class="memeber_role">Công việc</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team_member">
+                    <div class="team_member_inner">
+                        <img src="assets/images/teacher/person.png" alt="team Member">
+                        <div class="team_member_overlay">
+                            <h5>Tên Giáo viên</h5>
+                            <div class="memeber_role">Công việc</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team_member">
+                    <div class="team_member_inner">
+                        <img src="assets/images/teacher/person.png" alt="team Member">
+                        <div class="team_member_overlay">
+                            <h5>Tên Giáo viên</h5>
+                            <div class="memeber_role">Công việc</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team_member">
+                    <div class="team_member_inner">
+                        <img src="assets/images/teacher/person.png" alt="team Member">
+                        <div class="team_member_overlay">
+                            <h5>Tên Giáo viên</h5>
+                            <div class="memeber_role">Công việc</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- /. Teams Section -->
+
+    <!-- Counter Section -->
+    <div class="counter_sec love_counter" id="statistic">
+        <div class="container">
+
+            <div class="counter_area mt-30 text-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="counter wow slideInUp" data-wow-duration=".5s" data-wow-delay="0s">
+                            <sub><span class="love_count">1136</span> <sup>+</sup></sub>
+                            <span>Học Sinh</span>
+                            <p>Chúng tôi rất tự hào với thành tựu đã đạt được trong việc thu hút được đông đảo học sinh
+                                đến từ các trường trên địa bàn Đà Nẵng.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="counter wow slideInUp mt-55" data-wow-duration="1s" data-wow-delay="0s">
+                            <sub><span class="love_count">23</span> <sup>+</sup></sub>
+                            <span>Giáo Viên</span>
+                            <p>
+                                Các giáo viên có chuyên môn của các trường giỏi đã đồng hành cùng chúng tôi trong việc
+                                giảng dạy và hỗ trợ giáo dục cho các học sinh.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="counter wow slideInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+                            <sub><span class="love_count">356</span> <sup>+</sup></sub>
+                            <span>Học Sinh Giỏi</span>
+                            <p>Trung tâm chúng tôi đã đào tạo thành công nhiều học sinh giỏi từ các trường trên địa bàn
+                                Đà Nẵng, giúp các em đạt được thành tích đáng kinh ngạc.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="counter wow slideInUp mt-55" data-wow-duration="2s" data-wow-delay="0s">
+                            <sub><span class="love_count">494</span> <sup>+</sup></sub>
+                            <span>Học Sinh Khá</span>
+                            <p>Chúng tôi giúp các em có học lực yếu nắm rõ hơn trong quá trình tiếp thu kiến thức, từ đó
+                                đạt được kết quả tốt hơn.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Counter Section -->
+
+
+    <!-- Testimonials Section -->
+    <section class="testimonials_sec" id="testimonials">
+        <div class="container">
+            <div class="testimonials_inner">
+                <div class="sec_header">
+                    <h2 class="sec_heading wow fadeInLeft"><span>Đánh giá</span>Phản hồi về trung tâm</h2>
+                    <p class="wow fadeInLeft">Chúng tôi rất vui và cảm động khi nhận được những phản hồi tích cực từ các
+                        học sinh và phụ huynh. Đó là động lực to lớn giúp chúng tôi tiếp tục cải thiện chất lượng giảng
+                        dạy và mang đến cho các em một môi trường học tập tốt nhất.</p>
+                </div>
+                <div class="testi_wrap">
+                    <div class="testi_slider dots_bottom">
+                        <div class="testi_item">
+                            <div class="testi_content">
+                                <ul class="star_rating">
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                </ul>
+                                <p>"Con tôi rất thích đến học tại trung tâm Toàn Thắng. Giáo viên giảng dạy rất chuyên
+                                    nghiệp và tận tâm, giúp con tôi cải thiện kết quả học tập rõ rệt."</p>
+                            </div>
+                            <div class="testi_author">
+                                <div class="testi_name">Trần Thị Hồng</div>
+                                <div class="testi_designation">Phụ huynh của học sinh lớp 6</div>
+                            </div>
+                        </div>
+                        <div class="testi_item">
+                            <div class="testi_content">
+                                <ul class="star_rating">
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                </ul>
+                                <p>Trung tâm Toàn Thắng là một nơi tuyệt vời để học tập. Các giáo viên rất nhiệt tình và
+                                    phương pháp dạy học rất hiệu quả. Tôi đã cải thiện điểm số của mình một cách đáng kể
+                                    kể từ khi đến đây.</p>
+                            </div>
+                            <div class="testi_author">
+                                <div class="testi_name"> Lê Thị Bình</div>
+                                <div class="testi_designation">Học sinh lớp 10</div>
+                            </div>
+                        </div>
+                        <div class="testi_item">
+                            <div class="testi_content">
+                                <ul class="star_rating">
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                    <li><i class="fa fa-star fill"></i></li>
+                                </ul>
+                                <p>Tôi rất hài lòng về chất lượng dịch vụ của trung tâm Toàn Thắng. Các giáo viên đều
+                                    rất tận tâm và chu đáo, giúp tôi cải thiện kết quả học tập một cách đáng kể. Tôi sẽ
+                                    tiếp tục đến đây học tập trong tương lai.</p>
+                            </div>
+                            <div class="testi_author">
+                                <div class="testi_name">Nguyễn Xuân Huyền</div>
+                                <div class="testi_designation">Học sinh lớp 12</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /. Testimonials Section -->
+
+    <!-- Service Section -->
+    <section class="service_sec" id="enviroment">
+        <div class="container">
+            <div class="sec_header text-center">
+                <h2 class="sec_heading wow fadeInLeft"><span>Môi trường</span>
+                    Cơ sở hiện đại - Hoạt động đa dạng
+                </h2>
+            </div>
+            <div class="servics_list">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-4 wow slideInUp" data-wow-duration=".25s" data-wow-delay="0s">
+                        <div class="service_item">
+                            <div class="service_thumb"><i class="fas fa-angle-double-up"></i></div>
+                            <div class="service_content">
+                                <h4>TIẾN BỘ TRONG HỌC TẬP</h4>
+                                <p>Ôn kiến thức trên trường lớp, giảng dạy thêm về kiến thức mới giúp học sinh tiến bộ vượt bậc so với bạn cùng lứa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0s">
+                        <div class="service_item">
+                            <div class="service_thumb"><i class="fas fa-running"></i></div>
+                            <div class="service_content">
+                                <h4>ĐAM MÊ VỚI SỞ THÍCH</h4>
+                                <p>Các học sinh được thoải mái lựa chọn môn học mà bản thân thích, tập chung phát huy thế mạnh bản thân.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4 wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0s">
+                        <div class="service_item">
+                            <div class="service_thumb"><i class="fas fa-brain"></i></div>
+                            <div class="service_content">
+                                <h4>TƯ DUY - TÀI NĂNG</h4>
+                                <p>Phát triển khả năng tư duy - xử lý logic, tiếp thu kiến thức, đồng thời phát huy năng khiếu bản thân.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0s">
+                        <div class="service_item">
+                            <div class="service_thumb"><i class="fas fa-clone"> Lớp Học</i></div>
+                            <div class="service_content slides_service" style="height: auto;">
+                                <img src="assets/images/activity/activity-1.jpg" alt="activity-1.jpg">
+                                <img src="assets/images/activity/activity-2.jpg" alt="activity-2.jpg">
+                                <img src="assets/images/activity/activity-3.jpg" alt="activity-3.jpg">
+                                <img src="assets/images/activity/activity-4.png" alt="activity-4.png">
+                                <img src="assets/images/activity/activity-5.png" alt="activity-5.png">
+                                <img src="assets/images/activity/activity-6.jpg" alt="activity-6.jpg">
+                                <img src="assets/images/activity/activity-7.png" alt="activity-7.png">
+                                <img src="assets/images/activity/activity-8.png" alt="activity-8.png">
+                                <img src="assets/images/activity/activity-9.png" alt="activity-9.png">
+                                <img src="assets/images/activity/activity-10.png" alt="activity-10.png">
+                                <img src="assets/images/activity/activity-11.png" alt="activity-11.png">
+                                <img src="assets/images/activity/activity-12.png" alt="activity-12.png">
+                                <img src="assets/images/activity/activity-13.jpg" alt="activity-13.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- /. Service Section -->
+    <!-- Contact Section -->
+    <section class="contact_sec" id="contact">
+        <div class="sec_header text-center">
+            <div class="container">
+                <h2 class="sec_heading wow fadeInUp"><span>Đăng Kí Học</span>HỌC TẬP HÔM NAY - TƯƠNG LAI NGÀY MAI</h2>
+                <p class="wow fadeInUp">Hãy nhanh tay đăng kí và đặt chỗ ngay hôm nay để chúng tôi có thể sắp xếp lịch
+                    học phù hợp và giúp bạn bắt đầu hành trình chinh phục kiến thức một cách nhanh chóng và hiệu quả.
+                    Đăng kí ngay để được hưởng các ưu đãi đặc biệt và trải nghiệm môi trường học tập chuyên nghiệp tại
+                    trung tâm!</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="py-2">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+
+                        <!-- Countdown 1-->
+                        <div class="py-4 rounded bg-gradient-1 text-white shadow text-center mb-5">
+                            <p class="font-weight-bold text-uppercase">ĐĂNG KÝ ONLINE - NHẬN NGAY ƯU ĐÃI - Thời gian có
+                                hạn</p>
+                            <div id="clock-b" class="countdown-circles d-flex flex-wrap justify-content-around"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="contact-details d-flex">
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-5">
+                        <div class="contact_info wow fadeInLeft">
+                            <h3>Các bước đăng kí</h3>
+                            <h5><i> Bước 1: ĐĂNG KÝ ONLINE </i>
+                            </h5>
+                            <h5> Điền đầy đủ thông tin vào form đăng ký online nằm bên dưới.</h5>
+                            <h5><i> Bước 2: CHỜ ĐỢI SẮP XẾP - LIÊN HỆ </i>
+                            </h5>
+                            <h5> Chờ đợi thông báo trực tiếp của trung tâm về sắp xếp lớp, lịch học.</h5>
+                            <h5><i> Bước 3: NHẬP HỌC TẠI TRUNG TÂM </i>
+                            </h5>
+                            <h5> Sau khi hoàn tất hồ sơ học sinh sẽ được thông báo đến học tập trực tiếp tại trung tâm.
+                            </h5>
+                            <hr>
+                            <h5><i class="fa fa-map-marker"></i> 54/24 Ông Ích Khiêm - Hải Châu - Tp Đà Nẵng.
+                            </h5>
+                            <h5><i class="fa fa-envelope"></i> huymanhnguyen@gmail.com
+                            </h5>
+                            <h5><i class="fa fa-phone"></i> 0901 982 275
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-7">
+                        <div class="contact-form-area wow fadeInRight">
+                            <form action="#" id="form-contact">
+                                <div class="input-title">
+                                    <h3 class="title">Điền thông tin đăng kí tại đây!</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="input-box">
+                                            <input class="form-control" type="text" placeholder="Họ tên học sinh">
+                                            <i class="fa fa-user"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 ">
+                                        <div class="input-box">
+                                          <select name="gradle" class="form-control form-select" id="inputSelect" style="height: 50px;">
+                                            <option value="" >-- Chọn lớp --</option>
+                                            <option value="1" >Lớp 1</option>
+                                            <option value="2" >Lớp 2</option>
+                                            <option value="3" >Lớp 3</option>
+                                            <option value="4" >Lớp 4</option>
+                                            <option value="5" >Lớp 5</option>
+                                            <option value="6" >Lớp 6</option>
+                                            <option value="7" >Lớp 7</option>
+                                            <option value="8" >Lớp 8</option>
+                                            <option value="9" >Lớp 9</option>
+                                            <option value="10" >Lớp 10</option>
+                                            <option value="11" >Lớp 11</option>
+                                            <option value="12" >Lớp 12</option>
+                                          </select>
+                                          <i class="fas fa-caret-square-down"></i>
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-7">
+                                        <div class="input-box">
+                                            <input class="form-control" type="text" placeholder="Họ tên phụ huynh">
+                                            <i class="fas fa-user-tie"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="input-box">
+                                            <input class="form-control" type="text" placeholder="Số điện thoại">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="input-box">
+                                            <select name="gradle" class="form-control form-select" id="inputSelect" style="height: 50px;">
+                                              <option value="" >-- Chọn môn học --</option>
+                                              <option value="Toán" >Toán</option>
+                                              <option value="Lý" >Lý</option>
+                                              <option value="Hóa" >Hóa</option>
+                                              <option value="Văn" >Văn</option>
+                                              <option value="Anh" >Anh</option>
+                                            </select>
+                                            <i class="fas fa-caret-square-down"></i>
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="input-box">
+                                            <select name="gradle" class="form-control form-select" id="inputSelect" style="height: 50px;">
+                                              <option value="" >-- Chọn giáo viên --</option>
+                                              <option value="1" >Cô Trần Thị Huyền</option>
+                                              <option value="2" >Thầy Nguyễn Mạnh Huy</option>
+                                              <option value="3" >Thầy Lê Nguyên Vũ</option>
+                                              <option value="4" >Cô Lê Thị Xuyến</option>
+                                            </select>
+                                            <i class="fas fa-caret-square-down"></i>
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-12 form-group">
+                                        <label for="timeFrame">Chọn khung giờ:</label><br>
+                                        <div class="form-check form-check-inline mr-5">
+                                          <input  type="radio" name="timeFrame" id="timeFrame1" value="8-10">
+                                          <label for="timeFrame1">8:00 - 10:00</label>
+                                        </div>
+                                        <div class="form-check form-check-inline mr-5">
+                                          <input  type="radio" name="timeFrame" id="timeFrame2" value="10-12">
+                                          <label for="timeFrame2">10:00 - 12:00</label>
+                                        </div>
+                                        <div class="form-check form-check-inline mr-5">
+                                          <input  type="radio" name="timeFrame" id="timeFrame3" value="12-2">
+                                          <label for="timeFrame3">12:00 - 14:00</label>
+                                        </div>
+                                        <div class="form-check form-check-inline mr-5">
+                                          <input  type="radio" name="timeFrame" id="timeFrame4" value="2-4">
+                                          <label for="timeFrame4">14:00 - 16:00</label>
+                                        </div>
+                                        <div class="form-check form-check-inline mr-5">
+                                          <input  type="radio" name="timeFrame" id="timeFrame5" value="4-5">
+                                          <label for="timeFrame5">16:00 - 17:00</label>
+                                        </div>
+                                      </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /. Contact Section -->
+    <!-- /. News section -->
+    <section class="news_sec" id="blog" style="padding-bottom: 100px;">
+        <div class="container">
+            <div class="sec_header">
+                <h2 class="sec_heading wow fadeInLeft"><span>Bài viết mới nhất</span>Đọc tin và bài viết mới nhất của
+                    chúng tôi</h2>
+                <p class="wow fadeInLeft">Đón đầu xu hướng giáo dục và đáp ứng nhu cầu học tập của các em học sinh,
+                    Trung tâm chúng tôi liên tục cập nhật những bài viết về các nội dung học tập và kiến thức chuyên môn
+                    mới nhất. Hơn nữa, bạn còn có thể nắm bắt những hoạt động thú vị và bổ ích mà trung tâm đang tổ chức
+                    thông qua các bài viết tại đây. Hãy cùng đồng hành và khám phá thế giới tri thức tại Trung tâm chúng
+                    tôi</p>
+            </div>
+            <div class="blogs_list">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="0.25s" data-wow-delay="0s">
+                        <div class="blog_item">
+                            <div class="blog_thumb">
+                                <a href="single-blog.html"><img src="assets/images/template-two/blog-img2.jpg"
+                                        alt="team Member"></a>
+                            </div>
+                            <div class="blog_item_content">
+                                <a href="single-blog.html">
+                                    <h4>Những bí quyết học tập hiệu quả</h4>
+                                </a>
+                                <p>Bài viết này sẽ chia sẻ với bạn những bí quyết học tập hiệu quả, giúp bạn cải thiện
+                                    kỹ năng học tập và đạt được kết quả tốt trong học tập. Bạn sẽ được tìm hiểu về cách
+                                    tập trung học tập, phương pháp học tập thông minh, sử dụng tài nguyên học tập một
+                                    cách hiệu quả và nhiều hơn thế nữa. Hãy đọc và áp dụng những bí quyết này để trở
+                                    thành một học sinh hoàn hảo.</p>
+                                <a href="single-blog.html" class="btn br-50">Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="0.50s" data-wow-delay="0s">
+                        <div class="blog_item">
+                            <div class="blog_thumb">
+                                <a href="single-blog.html"><img src="assets/images/template-two/blog-img3.jpg"
+                                        alt="team Member"></a>
+                            </div>
+                            <div class="blog_item_content">
+                                <a href="single-blog.html">
+                                    <h4>Trung tâm Toàn Thắng - Nơi trải nghiệm đam mê bóng đá</h4>
+                                </a>
+                                <p>Mô tả: Hoạt động giải đá bóng tại trung tâm Toàn Thắng không chỉ giúp các học viên
+                                    rèn luyện kỹ năng bóng đá mà còn tạo ra sân chơi lành mạnh, giúp các em xây dựng
+                                    tinh thần đồng đội và sự tự tin trong cuộc sống. Tại đây, các em sẽ được học tập từ
+                                    những huấn luyện viên chuyên nghiệp, trang bị kỹ năng cần thiết để trở thành những
+                                    ngôi sao bóng đá trong tương lai. Hãy đăng ký tham gia ngay để trải nghiệm những
+                                    giây phút đầy thú vị cùng bóng đá tại trung tâm Toàn Thắng.</p>
+                                <a href="single-blog.html" class="btn br-50">Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="0.75s" data-wow-delay="0s">
+                        <div class="blog_item">
+                            <div class="blog_thumb">
+                                <a href="single-blog.html"><img src="assets/images/template-two/blog-img4.jpg"
+                                        alt="team Member"></a>
+                            </div>
+                            <div class="blog_item_content">
+                                <a href="single-blog.html">
+                                    <h4>Toán 12 - Chương trình học không gian</h4>
+                                </a>
+                                <p> Bài viết này sẽ giới thiệu về chương trình học không gian trong môn Toán lớp 12.
+                                    Chương trình này giúp học sinh có cái nhìn tổng quan về không gian, cũng như phát
+                                    triển kỹ năng tư duy và khả năng áp dụng kiến thức vào thực tế. Chúng ta sẽ đi sâu
+                                    vào từng phần của chương trình, cùng khám phá những kiến thức thú vị trong môn Toán
+                                    này.</p>
+                                <a href="single-blog.html" class="btn br-50">Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="0.25s" data-wow-delay="0s">
+                        <div class="blog_item">
+                            <div class="blog_thumb">
+                                <a href="single-blog.html"><img src="assets/images/template-two/blog-img2.jpg"
+                                        alt="team Member"></a>
+                            </div>
+                            <div class="blog_item_content">
+                                <a href="single-blog.html">
+                                    <h4>Những bí quyết học tập hiệu quả</h4>
+                                </a>
+                                <p>Bài viết này sẽ chia sẻ với bạn những bí quyết học tập hiệu quả, giúp bạn cải thiện
+                                    kỹ năng học tập và đạt được kết quả tốt trong học tập. Bạn sẽ được tìm hiểu về cách
+                                    tập trung học tập, phương pháp học tập thông minh, sử dụng tài nguyên học tập một
+                                    cách hiệu quả và nhiều hơn thế nữa. Hãy đọc và áp dụng những bí quyết này để trở
+                                    thành một học sinh hoàn hảo.</p>
+                                <a href="single-blog.html" class="btn br-50">Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="0.50s" data-wow-delay="0s">
+                        <div class="blog_item">
+                            <div class="blog_thumb">
+                                <a href="single-blog.html"><img src="assets/images/template-two/blog-img3.jpg"
+                                        alt="team Member"></a>
+                            </div>
+                            <div class="blog_item_content">
+                                <a href="single-blog.html">
+                                    <h4>Nơi trải nghiệm đam mê bóng đá</h4>
+                                </a>
+                                <p>Mô tả: Hoạt động giải đá bóng tại trung tâm Toàn Thắng không chỉ giúp các học viên
+                                    rèn luyện kỹ năng bóng đá mà còn tạo ra sân chơi lành mạnh, giúp các em xây dựng
+                                    tinh thần đồng đội và sự tự tin trong cuộc sống. Tại đây, các em sẽ được học tập từ
+                                    những huấn luyện viên chuyên nghiệp, trang bị kỹ năng cần thiết để trở thành những
+                                    ngôi sao bóng đá trong tương lai. Hãy đăng ký tham gia ngay để trải nghiệm những
+                                    giây phút đầy thú vị cùng bóng đá tại trung tâm Toàn Thắng.</p>
+                                <a href="single-blog.html" class="btn br-50">Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 wow slideInUp" data-wow-duration="0.75s" data-wow-delay="0s">
+                        <div class="blog_item">
+                            <div class="blog_thumb">
+                                <a href="single-blog.html"><img src="assets/images/template-two/blog-img4.jpg"
+                                        alt="team Member"></a>
+                            </div>
+                            <div class="blog_item_content">
+                                <a href="single-blog.html">
+                                    <h4>Toán 12 - Chương trình học không gian</h4>
+                                </a>
+                                <p> Bài viết này sẽ giới thiệu về chương trình học không gian trong môn Toán lớp 12.
+                                    Chương trình này giúp học sinh có cái nhìn tổng quan về không gian, cũng như phát
+                                    triển kỹ năng tư duy và khả năng áp dụng kiến thức vào thực tế. Chúng ta sẽ đi sâu
+                                    vào từng phần của chương trình, cùng khám phá những kiến thức thú vị trong môn Toán
+                                    này.</p>
+                                <a href="single-blog.html" class="btn br-50">Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="blog-list.html" class="btn br-50 browse_btn wow slideInUp" data-wow-duration="1.75s"
+                    data-wow-delay="0s"
+                    style="visibility: visible; animation-duration: 1.75s; animation-delay: 0s; animation-name: slideInUp;">Xem
+                    thêm</a>
+            </div>
+        </div>
+    </section><!-- /. News section -->
+
+
+    <!-- Footer Section -->
+    <footer id="footer" Class="main_footer wow fadeInUp" style="margin-top: 0;">
+        <div class="container">
+            <div class="footer_top  text-center">
+                <div class="footer_top_logo">
+                    <a href="#" class="footer-logo"><i class='fas fa-graduation-cap'
+                            style='font-size:58px;color: #39bfee;'></i></a>
+                </div>
+
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="footer_sec">
+                        <i class="fa fa-phone-alt"></i>
+                        <h3>Gọi cho chúng tôi</h3>
+                        <a href="tel:0901-982-275">0901 982 275</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="footer_sec">
+                        <i class="fab fa-facebook-messenger"></i>
+                        <h3>Nhắn Messenger</h3>
+                        <a href="http://m.me/daythemtoanthang" target="_blank">Trung tâm Toàn Thắng</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="footer_sec">
+                        <a href="https://zalo.me/0901982275" target="_blank" class="numberzalo all" rel="nofollow"
+                            style="left: 220px">
+                            <img src="assets/images/zalo-icon.png" alt="0901 982 275"
+                                style="border-radius: 50%; width: 28px;">
+                        </a>
+
+                        <h3>Nhắn Zalo</h3>
+                        <a href="https://zalo.me/0901982275" target="_blank">0901 982 275</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrigt_text d-flex justify-content-between">
+                <span>Địa chỉ : 54/24 Ông Ích Khiêm - Hải Châu - Tp Đà Nẵng.</span>
+                <span>© Copyright 2019 Bevy templates, Inc.</span>
+                <!-- social icons -->
+                <div class="social_div">
+                    <ul class="social_list">
+                        <li><a href="https://www.facebook.com/daythemtoanthang" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="mailto:huymanhnguyen@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </li>
+
+                    </ul>
+                </div><!-- /. social icons -->
+            </div>
+        </div>
+    </footer><!-- /. Footer Section -->
+
+    <a href="javascript:void(0);" class="scrollUp"><i class="fas fa-chevron-up"></i></a>
+
+
+    <!-- External JS libraries -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/timer.js"></script>
+</body>
+
+</html>
